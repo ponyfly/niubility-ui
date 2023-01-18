@@ -18,3 +18,4 @@ coverage
 cypress/screenshots/*
 cypress/videos/*
 tmp
+!/docs/.vitepress/cache/
