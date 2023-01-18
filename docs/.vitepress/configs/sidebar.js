@@ -1,3 +1,4 @@
+import elementPlusSideBar from '../pages/element-plus.json'
 export default {
   '/zh-CN/guide/': [
     {
@@ -20,5 +21,6 @@ export default {
         { text: 'element-plus', link: '/zh-CN/guide/elp-dev' }
       ]
     }
-  ]
+  ],
+  '/zh-CN/component/element-plus': elementPlusSideBar,
 }
