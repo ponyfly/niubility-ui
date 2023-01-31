@@ -6,7 +6,7 @@ import footer from './configs/footer'
 const base = '/'
 
 export default defineConfig({
-  title: 'much-more-design',
+  title: 'niubility-ui',
   description: 'zhangzechao de ui',
   appearance: 'dark',
   base,
@@ -19,10 +19,13 @@ export default defineConfig({
       }
     ]
   ],
+  lastUpdated: true,
   themeConfig: {
     logo: '/images/much-more-icon.svg',
     nav,
     sidebar,
-    footer
+    footer,
+    docFooter: { prev: '上一篇', next: '下一篇' },
+    lastUpdatedText: "最近更新时间"
   }
 })
