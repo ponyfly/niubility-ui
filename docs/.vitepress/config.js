@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import nav from './configs/nav'
 import sidebar from './configs/sidebar'
-// import footer from './configs/footer'
+import footer from './configs/footer'
 
 const base = '/'
 
@@ -23,6 +23,6 @@ export default defineConfig({
     logo: '/images/much-more-icon.svg',
     nav,
     sidebar,
-    // footer
+    footer
   }
 })
